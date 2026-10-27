@@ -1,0 +1,36 @@
+﻿# 图像增强结果
+**/output*/
+**/results*/
+**/test_calibrated/
+
+# 模型权重
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 原始数据
+*.raw
+*.dng
+*.npy
+*.npz
+
+# Python缓存
+**/__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# VS Code配置
+.vscode/
+
+# 下载的官方仓库
+practice_1/SIED_official/
+
+# 日志和临时文件
+*.log
+*.tmp

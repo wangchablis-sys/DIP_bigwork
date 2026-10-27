@@ -1,0 +1,9 @@
+# paddleocr 会顺带安装 opencv-contrib-python，和本机的 opencv-python 5 冲突。
+# 安装顺序：
+#   pip install paddlepaddle==3.3.1 paddleocr==3.7.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+#   pip uninstall -y opencv-contrib-python
+#   pip install --force-reinstall --no-deps opencv-python==5.0.0.93
+opencv-python==5.0.0.93
+numpy>=2.3
+paddlepaddle==3.3.1
+paddleocr==3.7.0

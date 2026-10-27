@@ -144,28 +144,6 @@ python .\compress_kodak.py
 
 每次进入新的practice前，请激活该目录自己的虚拟环境。
 
-## Git仓库内容
-
-建议提交：
-
-- Python源代码；
-- Markdown部署文档；
-- 小型流程图；
-- 依赖说明文件。
-
-建议忽略：
-
-```text
-*.pt
-*.pth
-*.ckpt
-*.raw
-**/__pycache__/
-**/output*/
-**/data/
-**/.venv/
-```
-
 ## 参考
 
 Practice 1使用SIED项目：
